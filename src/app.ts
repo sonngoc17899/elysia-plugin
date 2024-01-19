@@ -1,5 +1,5 @@
 import { Elysia } from "elysia";
-import { featureSwitch} from "./plugins/feature-switch";
+import { featureSwitch} from "./plugins/featureSwitch";
 import { pageLock } from "./plugins/pageLock";
 
 const app = new Elysia()
